@@ -1,0 +1,30 @@
+.toysitem {
+  width: 370px;
+  height: 550px;
+  border: none;
+  -webkit-box-shadow: 2px 0px 7px 5px rgba(15, 55, 86, 0.2);
+  -moz-box-shadow: 2px 0px 7px 5px rgba(15, 55, 86, 0.2);
+  box-shadow: 2px 0px 7px 5px rgba(15, 55, 86, 0.2);
+  transition: all 0.2s linear;
+  // background-color: white;
+  background: rgb(195, 30, 139);
+  background: linear-gradient(
+    90deg,
+    rgba(195, 30, 139, 0.5018382352941176) 0%,
+    rgba(54, 18, 54, 1) 0%,
+    rgba(111, 44, 124, 1) 100%,
+    rgba(91, 48, 131, 0.969625350140056) 100%,
+    rgba(15, 23, 83, 1) 100%,
+    rgba(161, 49, 205, 1) 100%,
+    rgba(11, 11, 11, 1) 100%
+  );
+}
+.toysitem:hover {
+  -webkit-box-shadow: 2px 0px 7px 5px rgba(33, 48, 60, 0.2);
+  -moz-box-shadow: 2px 0px 7px 5px rgba(10, 14, 18, 0.2);
+  box-shadow: 2px 0px 7px 5px rgba(3, 8, 12, 0.2);
+}
+.img--fort {
+  width: 100%;
+  height: 400px;
+}

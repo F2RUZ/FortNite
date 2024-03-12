@@ -1,0 +1,57 @@
+.list__item {
+  width: 100%;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.storeItemCard {
+
+  padding: 10px;
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 15px;
+}
+.fort__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 30px;
+  height: 30px;
+  color: rgb(132, 255, 0);
+  font-size: 20px;
+  border-radius: 50%;
+  background-color: rgb(30, 32, 30);
+  font-weight: 900;
+}
+
+.plus{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buttonsAdd{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+ .price-button{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+
