@@ -10,6 +10,7 @@ const ToysItem = ({
   releaseDate,
   addCart,
   id,
+  icon
 }) => {
   return (
     <>
@@ -17,7 +18,7 @@ const ToysItem = ({
         <a href="#">
           <img
             className="p-8 rounded-t-lg img--fort"
-            src={full_background}
+            src={icon}
             alt="product image"
           />
         </a>
